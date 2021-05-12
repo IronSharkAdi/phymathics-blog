@@ -43,8 +43,8 @@ body {
 }
 
 .hero-post-content {
-  position: absolute;
-  bottom: 5px;
+  margin-top: -30px;
+  margin-bottom: 50px;
   color: #66fcf1;
 }
 
@@ -127,6 +127,13 @@ body {
   color: #111c31;
   font-weight: 700;
   display: inline-block;
+}
+a {
+  color: #66fcf1;
+}
+a > img {
+  width: 100%;
+  height: 100%;
 }
 
 /*--------------------------------------------------content-------------------------------------------------*/
