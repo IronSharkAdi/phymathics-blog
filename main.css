@@ -1,0 +1,251 @@
+/* 
+dark - #111c31
+
+green - #66fcf1
+
+gray - #1f2833
+
+black - #0B0C10
+
+tem_color = #1affb3
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+.container {
+  -webkit-box-shadow: 4px 4px 17px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 17px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 17px -1px rgba(0, 0, 0, 0.75);
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*-----------------------------------------------header------------------------------------------------- */
+
+.nav-link {
+  color: #66fcf1 !important;
+}
+
+.navber {
+  background: rgba(0, 0, 0, 0.1rem);
+}
+
+.btn-main {
+  background-color: #66fcf1 !important;
+  color: black;
+}
+/*---------------------------------------------landing page-------------------------------------------------------*/
+body {
+  background-color: #162238;
+}
+.hero {
+  background-color: #111c31;
+}
+
+.hero-post-content {
+  position: absolute;
+  bottom: 5px;
+  color: #66fcf1;
+}
+
+.hero-post-content img {
+  border: 3px solid #66fcf1;
+}
+.hero {
+  color: #66fcf1;
+}
+.hero-post {
+  position: relative;
+}
+
+.hero-post img {
+  filter: grayscale(30%) brightness(0.8);
+}
+
+.programmers-img img {
+  border: 2px solid #66fcf1;
+}
+/*----------------------------------------------------------blog section-----------------------------------------------------------*/
+
+.blog-posts {
+  background-color: #0b0c10;
+  color: #66fcf1;
+}
+
+.blog-post {
+  background-color: #111c31;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.blog-post img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*-------------------Badges-------------------------*/
+
+.badge {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.badge > a {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  background-color: #66fcf1;
+  color: #111c31;
+  font-weight: 700;
+}
+
+/*----------------------------------------------------------Aside-----------------------------------------------------------------------*/
+
+.social-links {
+  background-color: #66fcf1;
+  color: #111c31;
+  font-size: 1.5rem;
+}
+
+.secondary-icon {
+  background-color: #1f2833;
+  color: #66fcf1;
+}
+.aside-heading {
+  border-left: 3px solid #66fcf1;
+}
+.badges {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.badges a {
+  margin-left: 0.5rem;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  background-color: #66fcf1;
+  color: #111c31;
+  font-weight: 700;
+  display: inline-block;
+}
+
+/*--------------------------------------------------content-------------------------------------------------*/
+.content-main {
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content {
+  background-color: #0b0c10;
+}
+
+a:hover {
+  text-decoration: none;
+  color: beige;
+}
+.number {
+  border: 3px solid #ffffff;
+  margin: 20px;
+  /* width: 50px;
+  height: 50px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.numbers {
+  display: flex;
+}
+
+.only_mobile {
+  display: none;
+}
+.number:hover {
+  background-color: rgba(255, 255, 255, 0.548);
+}
+.footer {
+  background-color: #1e293d;
+  color: #66fcf1;
+}
+.footer > h3 {
+  font-size: 15px;
+}
+.copyright {
+  color: #66fcf234;
+  background-color: #25324b;
+  height: 25px;
+}
+.fa {
+  /* width: 50px !important; */
+  font-size: 2rem;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .logo_one {
+    width: 50px !important;
+  }
+  .only_mobile {
+    display: inline-block;
+  }
+  .numbers {
+    display: flex !important;
+  }
+  .only_pc {
+    display: none !important;
+  }
+  .hero {
+    border-radius: 5px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+  .fa {
+    /* width: 50px !important; */
+    font-size: 1.5rem;
+  }
+  .footer > h3 {
+    font-size: 12px;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+}
