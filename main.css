@@ -256,3 +256,8 @@ a:hover {
   only screen and (min-device-pixel-ratio: 1.5) {
   /* Styles */
 }
+
+.writer {
+  font-size: 20px;
+  color: #a0c1ff;
+}
